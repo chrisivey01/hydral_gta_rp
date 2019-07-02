@@ -1,0 +1,4 @@
+node_modules/
+auth.json
+components/database.js
+.idea/

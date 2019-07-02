@@ -10,7 +10,7 @@ module.exports = {
             }
             message.channel.send({
                 "embed":{
-                    "description":array.toString().replaceAll(",","")
+                    "description":array.toString().replace(/[,]/g,"")
                 }
             })
         }catch(err){

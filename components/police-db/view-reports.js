@@ -1,7 +1,6 @@
 module.exports = {
 
     viewReports: async (message, database, Discord) => {
-        // const name = message.content.split(" ")[1];        
         message.channel.send("Input citizen's name: ");
         let name;
 
